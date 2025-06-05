@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import heroImage from '../assets/dyb-image-one.jpeg'; // adjust path as needed
+// import heroImage from '../assets/dyb-image-one.jpeg'; 
 
 
 export default function HeroSection() {
@@ -17,7 +17,9 @@ export default function HeroSection() {
 const styles = {
   hero: {
     height: '80vh',
-    backgroundImage: `url(${heroImage})`,
+    // backgroundImage: `url(${heroImage})`,
+    backgroundImage: 'url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80")',
+
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     position: 'relative',
