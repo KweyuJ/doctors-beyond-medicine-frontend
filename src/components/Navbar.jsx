@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.jpg'; 
+import logo from '../assets/logo2.jpg'; 
 
 export default function Navbar() {
   return (
@@ -22,8 +22,8 @@ export default function Navbar() {
 
 const styles = {
   navbar: {
-    padding: '1rem 2rem',
-    backgroundColor: '#ffffff',
+    padding: '0.5rem 1.5rem',
+    backgroundColor: '#cccccc',
     borderBottom: '1px solid #ddd',
     display: 'flex',
     justifyContent: 'space-between',
@@ -31,15 +31,26 @@ const styles = {
     position: 'sticky',
     top: 0,
     zIndex: 1000,
+    borderRadius: '10px', // rounded corners for navbar
+    margin: '0.5rem', // small margin to show the round effect
   },
   logo: {
+    height: '60px',
+    width: 'auto',
+    
+    overflow: 'hidden',
     display: 'flex',
     alignItems: 'center',
+   
   },
   logoImage: {
-    height: '40px',
-    objectFit: 'contain',
+    height: '100px',
+    width: 'auto',
+    objectFit: 'cover',
+    display: 'block',
+    borderRadius: '12px',
   },
+
   links: {
     display: 'flex',
     listStyle: 'none',
@@ -50,6 +61,7 @@ const styles = {
   link: {
     textDecoration: 'none',
     color: '#4A5568',
-    fontWeight: '500',
+    fontWeight: '300',
+    fontSize: '20px',
   },
 };

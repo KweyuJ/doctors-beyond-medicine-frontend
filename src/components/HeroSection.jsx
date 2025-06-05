@@ -24,6 +24,7 @@ const styles = {
     backgroundPosition: 'center',
     position: 'relative',
     color: '#fff',
+    borderRadius:'10px',
   },
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -34,6 +35,7 @@ const styles = {
     alignItems: 'center',
     padding: '2rem',
     textAlign: 'center',
+    borderRadius:'10px',
   },
   title: {
     fontSize: '3rem',
