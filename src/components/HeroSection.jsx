@@ -16,16 +16,15 @@ export default function HeroSection() {
 
 const styles = {
   hero: {
-    height: '80vh',
+    height: '65vh', // reduced from 80vh
     backgroundImage: `url(${heroImage})`,
-    // backgroundImage: 'url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80")',
-
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     position: 'relative',
     color: '#fff',
     borderRadius:'10px',
   },
+  
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     height: '100%',
