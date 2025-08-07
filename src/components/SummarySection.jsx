@@ -5,12 +5,12 @@ export default function SummarySection() {
         <h2 style={styles.heading}>Why Doctors Beyond Medicine?</h2>
         <p style={styles.summary}>
           A growing community of doctors and med students breaking boundaries, exploring paths in tech,
-          entrepreneurship, policy, media, and more — all while redefining what it means to wear the white coat.
+          entrepreneurship, policy, media, and more all while redefining what it means to wear the white coat.
         </p>
         <div style={styles.cards}>
           <div style={styles.card}>
             <h3>Explore New Paths</h3>
-            <p>Tech, business, media, and more — see how your medical background opens doors everywhere.</p>
+            <p>Tech, business, media, and more, see how your medical background opens doors everywhere.</p>
           </div>
           <div style={styles.card}>
             <h3>Real Stories</h3>
