@@ -5,6 +5,7 @@ import Stories from './pages/Stories';
 import Join from './pages/Join';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
+import StoryDetail from './pages/StoryDetail'; // ✅ Make sure this is added
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/stories" element={<Stories />} />
+        <Route path="/stories/:slug" element={<StoryDetail />} /> {/* ✅ Add this */}
         <Route path="/join" element={<Join />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

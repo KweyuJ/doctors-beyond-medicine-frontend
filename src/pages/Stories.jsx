@@ -1,8 +1,9 @@
 import { Fade } from 'react-awesome-reveal';
-import './Stories.css'; // We'll style it here
-import doctor1 from '../assets/joy.jpg'; // Replace with real images
-import doctor2 from '../assets/maurine.jpg'; // Replace with real images
-import doctor3 from '../assets/logo.jpg'; // Optional
+import './Stories.css';
+import doctor1 from '../assets/joy.jpg';
+import doctor2 from '../assets/maurine.jpg';
+import doctor3 from '../assets/logo.jpg';
+import { Link } from 'react-router-dom';
 
 const stories = [
   {
@@ -10,18 +11,21 @@ const stories = [
     image: doctor1,
     transition: 'From Medicine to Software Engineering',
     story: 'Joy shares her experience of balancing medical school while exploring the tech world. She now contributes to both healthcare and software development.',
+    slug: 'joy-kweyu',
   },
   {
-    name: 'Dr. Maurine Achieng',
+    name: 'Dr. Maurine Khalwale',
     image: doctor2,
-    transition: 'Merging Medicine and Entrepreneurship',
+    transition: 'Merging Medicine and Accounting',
     story: 'Maurine speaks about starting her own health-centered business while finishing med school, showing others that dual paths are possible.',
+    slug: 'maurine-khalwale',
   },
   {
     name: 'Dr. Alex Mwangi',
     image: doctor3,
     transition: 'From Surgery to Data Science',
     story: 'After years in surgery, Alex transitioned into data science to work on public health AI models and now builds tools to improve diagnosis at scale.',
+    slug: 'alex-mwangi',
   }
 ];
 
@@ -41,6 +45,9 @@ export default function Stories() {
               <h3>{story.name}</h3>
               <p className="transition">{story.transition}</p>
               <p className="story-text">{story.story}</p>
+              <Link to={`/stories/${story.slug}`} className="read-more-link">
+                Read More →
+              </Link>
             </div>
           </Fade>
         ))}
