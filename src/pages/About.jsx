@@ -11,23 +11,23 @@ export default function About() {
         <section style={styles.header}>
           <h1 style={styles.title}>About the Community</h1>
           <p style={styles.subtitle}>
-            Doctors Beyond Medicine is a safe space for medical professionals and students reimagining what their careers can look like — beyond the ward, the theatre, or the clinic.
+            Doctors Beyond Medicine is a safe space for medical professionals and students reimagining what their careers can look like beyond the ward, the theatre, or the clinic.
           </p>
         </section>
 
         {/* Story Section */}
         <section style={styles.storySection}>
           <p style={styles.paragraph}>
-            Most of us begin medical school with a clear vision — specialize in Paediatrics, OBGYN, Surgery, or Internal Medicine. But somewhere along the way, that vision might evolve.
+            Most of us begin medical school with a clear vision specialize in Paediatrics, OBGYN, Surgery, or Internal Medicine. But somewhere along the way, that vision might evolve.
           </p>
           <p style={styles.paragraph}>
             You might find yourself curious about tech, passionate about entrepreneurship, or drawn to something completely different. And that’s okay.
           </p>
           <p style={styles.paragraph}>
-            Shifting careers after years of study isn't easy — there's guilt, fear, and uncertainty. But what if you didn’t have to figure it all out alone?
+            Shifting careers after years of study isn't easy, there's guilt, fear, and uncertainty. But what if you didn’t have to figure it all out alone?
           </p>
           <p style={styles.paragraph}>
-            <strong>Doctors Beyond Medicine</strong> is a community for doctors and med students who are exploring life outside traditional practice. Here, you’ll find support, stories, and kindred spirits who’ve taken the leap — or are just beginning to.
+            <strong>Doctors Beyond Medicine</strong> is a community for doctors and med students who are exploring life outside traditional practice. Here, you’ll find support, stories, and kindred spirits who’ve taken the leap or are just beginning to.
           </p>
         </section>
 
@@ -41,7 +41,7 @@ export default function About() {
               style={styles.founderImgTogether}
             />
             <p style={styles.founderTextTogether}>
-              We’re <strong>Joy</strong> & <strong>Maurine</strong> — two medics who decided to color outside the lines. Together, we built this
+              We’re <strong>Joy</strong> & <strong>Maurine</strong>, two medics who decided to color outside the lines. Together, we built this
               space to support doctors like us. Join us as we take charge of our lives and careers in bold new directions.
             </p>
           </div>

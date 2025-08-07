@@ -1,0 +1,65 @@
+.stories-page {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .stories-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .stories-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stories-hero p {
+    color: #555;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .story-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .story-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .story-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .story-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .story-card h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.4rem;
+  }
+  
+  .story-card .transition {
+    font-style: italic;
+    color: #7a7a7a;
+    margin-bottom: 0.8rem;
+  }
+  
+  .story-card .story-text {
+    font-size: 1rem;
+    color: #444;
+  }
+  
